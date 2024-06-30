@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/WildFly 27.0 Runtime">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Tools/wildfly-31.0.1.Final/modules/system/layers/base/jakarta/interceptor/api/main/jakarta.interceptor-api-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/wildfly-31.0.1.Final/modules/system/layers/base/jakarta/enterprise/api/main/jakarta.enterprise.cdi-api-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/wildfly-31.0.1.Final/modules/system/layers/base/jakarta/inject/api/main/jakarta.inject-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/wildfly-31.0.1.Final/modules/system/layers/base/jakarta/validation/api/main/jakarta.validation-api-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Tools/wildfly-31.0.1.Final/modules/system/layers/base/jakarta/servlet/api/main/jakarta.servlet-api-6.0.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
